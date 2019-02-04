@@ -1,7 +1,7 @@
-#gamebody {
+.tiles {
   border: 1px solid black;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  font-size: 8em;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  
 }
