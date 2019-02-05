@@ -1,4 +1,5 @@
 var level = 0;
+var score = 0;
 
 // var gridArray =
 // [
@@ -22,23 +23,31 @@ var blockColour = document.getElementById("game-squares");
 blockColour.addEventListener("click", squares);
 //blockColour.addEventListener("click", someOtherFunction);
 
-var r1 = Math.floor(Math.random() * 37);
-var r2 = Math.floor(Math.random() * 37);
-var r3 = Math.floor(Math.random() * 37);
+
 function squares (event){
-      $("#1").addClass("squareColour");
-      $("#2").addClass("squareColour");
-      $("#3").addClass("squareColour");
+      $("#"+r1).addClass("squareColour");
+      $("#"+r2).addClass("squareColour");
+      $("#"+r3).addClass("squareColour");
 
     }
 
 
+    var r1 = Math.floor(Math.random() * 36)+1;
+    var r2 = Math.floor(Math.random() * 36)+1;
+    var r3 = Math.floor(Math.random() * 36)+1;
 
+    var storeRandomSquare = (this);
 
+    // function clearSquare() {
+    //   t =setTimeout(color, 3000);
+    //
+    // }
 
-
-
-
+    setTimeout(function(){
+      $('#'+r1).remove();
+      $('#'+r2).remove();
+      $('#'+r3).remove();
+    }, 5000);
 
 
 
