@@ -32,9 +32,9 @@ function squares (event){
     }
 
 
-    var r1 = Math.floor(Math.random() * 36)+1;
-    var r2 = Math.floor(Math.random() * 36)+1;
-    var r3 = Math.floor(Math.random() * 36)+1;
+    var r1 = Math.floor(Math.random() * 36);
+    var r2 = Math.floor(Math.random() * 36);
+    var r3 = Math.floor(Math.random() * 36);
 
     var storeRandomSquare = (this);
 
@@ -44,12 +44,15 @@ function squares (event){
     // }
 
     setTimeout(function(){
-      $('#'+r1).remove();
-      $('#'+r2).remove();
-      $('#'+r3).remove();
-    }, 5000);
+      $("#"+r1).css("background-color", "#FFF");
+      $("#"+r2).css("background-color", "#FFF");
+      $("#"+r3).css("background-color", "#FFF");
+      // $('#'+r1).remove();
+      // $('#'+r2).remove();
+      // $('#'+r3).remove();
+    }, 4000);
 
-
+//if statment to alternate between colours black and white
 
 
 
