@@ -22,10 +22,40 @@ var blockColour = document.getElementById("game-squares");
 blockColour.addEventListener("click", squares);
 //blockColour.addEventListener("click", someOtherFunction);
 
+var r1 = Math.floor(Math.random() * 37);
+var r2 = Math.floor(Math.random() * 37);
+var r3 = Math.floor(Math.random() * 37);
 function squares (event){
+      $("#1").addClass("squareColour");
+      $("#2").addClass("squareColour");
+      $("#3").addClass("squareColour");
 
-      $("#game-block1").addClass("squareColour");
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function makeGrid() {
 //     for (var y = 0; y <5; y++) {
@@ -37,7 +67,7 @@ function squares (event){
 //
 // makeGrid();
 //
-// var blockColour = Math.random();
+//var blockColour = Math.random();
 //     if (blockColour = 1)
 //   }
 
