@@ -1,7 +1,26 @@
-.tiles {
+.game-block {
   border: 1px solid black;
   display: inline-block;
-  width: 130px;
-  height: 130px;
-  
+  width: 97.5px;
+  height: 97.5px;
+  vertical-align: top;
+
+}
+#gamebody{
+
+  width:500px;
+
+}
+
+.squareColour{
+  background-color: black;
+}
+
+body{
+  width: auto;
+}
+
+.start{
+  border-color: #2196F3;
+  color: dodgerblue
 }
