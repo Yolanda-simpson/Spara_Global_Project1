@@ -31,42 +31,47 @@ function squares (event){
     var r2 = Math.floor(Math.random() * 36)+1;
     var r3 = Math.floor(Math.random() * 36)+1;
 
-    // for (var i = 0; i < array.length; i++) {
-    //   array[i]
-    // }
 
-    // var storeRandomSquare = (this);
-
-    // function clearSquare() {
-    //   t =setTimeout(color, 3000);
-    //
-    // }
 
     setTimeout(function(){
       $("#"+r1).addClass("clearBlock");
       $("#"+r2).addClass("clearBlock");
       $("#"+r3).addClass("clearBlock");
-      // $('#'+r1).remove();
-      // $('#'+r2).remove();
-      // $('#'+r3).remove();
+
     }, 4000);
 
 //clicking square blocks
-$(function () {
+function random1() {
     $("#"+r1).click(function () {
         $(this).css('background-color', '#000000');
     });
-});
-$(function () {
+}
+function random2() {
     $("#"+r2).click(function () {
         $(this).css('background-color', '#000000');
     });
-});
-$(function () {
+}
+function random3() {
     $("#"+r3).click(function () {
         $(this).css('background-color', '#000000');
+
     });
-});
+}
+random1();
+random2();
+random3();
+
+// if () {
+//
+// } else {
+//
+// }
+
+
+
+
+
+
 
 
 
@@ -94,73 +99,3 @@ $(function () {
  //       $(r1).addClass("squareColour")
  //     })
  // });
-
- // function userClicks (){
- //
- //   document.getElementById('1').addClass("squareColour");
- //   console.log('works');
- // var blockColour = document.getElementById("game-squares");
- //
- //
- // blockColour.addEventListener("click", squares);
- //   document.addEventListener("click", function(){
- //     document.getElementById("#").appendChild(".squareColour");
- //   });
-
-
-// var blockColour = $("#"+r1).addClass("squareColour");
-// blockColour.addEventListener("click", squares);
-// for (var i = 0; i < game-squares.length; i++) {
-//    console.log("works");
-//
-// }
-// }
-
-
-
-
-
-// $(".squareColour").mousedown(function(){
-//         if (playersTurn) {
-//             var gameBlockID = '#'+r1 + this.id;
-//             var highlightColor = $(this).css('squareColour');
-// $("1").addClass("squareColour");
-//
-// }
-//
-// });
-
-
-
-
-
-
-
-
-
-
-
-// function makeGrid() {
-//     for (var y = 0; y <5; y++) {
-//     for (var  x= 0; x <5; x++) {
-//             $("#gamebody").append("<div class='tiles'></div>");
-//         }
-//     }
-// };
-//
-// makeGrid();
-//
-//var blockColour = Math.random();
-//     if (blockColour = 1)
-//   }
-
-
-
-// var compChoice = Math.random();
-//   if (compChoice < 0.35) {
-// 	alert(compChoice = "the computer chose rock");
-// } else if(compChoice <= 0.68) {
-// 	alert(compChoice = "the computer chose paper");
-//   } else {
-// 	alert(compChoice = "the computer chose scissors");
-//   }
