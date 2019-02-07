@@ -41,7 +41,7 @@ document.getElementById('start').addEventListener('click', function(){
 
     })
     }
-    document.getElementById("done").addEventListener("click", function(){
-    document.location = "level3.html"
+    document.getElementById("complete").addEventListener("click", function(){
+    document.location = "win.html"
     });
  });
