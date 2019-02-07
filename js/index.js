@@ -7,8 +7,11 @@ document.getElementById('start').addEventListener('click', function(){
   setInterval(function() {
     if (timer != 0) {
       timer-- ;
-      document.getElementById('countdown').innerHTML = "timer:" + timer;}
-  }, 1000)
+      document.getElementById('countdown').innerHTML = "timer:" + timer;
+    }else {
+      document.location = "Gameover.html"
+    }
+  }, 1000);
 
    function randomSquareGen(x) {
     var random_no = [];
@@ -40,8 +43,3 @@ document.getElementById('start').addEventListener('click', function(){
     }
 
  });
-
-
-  if (timer == 0){
-    getElementsByClassName('container').innerHTML=score;
-}
