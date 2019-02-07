@@ -20,7 +20,7 @@ body{
   width: auto;
 }
 
-.start{
+#start{
   border-color: #2196F3;
   color: dodgerblue
 }
@@ -37,4 +37,8 @@ body{
 h1{
 
   text-align: center;
+}
+#done{
+
+  text-align: right;
 }

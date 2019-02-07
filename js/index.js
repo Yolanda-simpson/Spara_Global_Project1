@@ -22,7 +22,7 @@ document.getElementById('start').addEventListener('click', function(){
     return random_no;
     };
 
-    var random_no = randomSquareGen(8);
+    var random_no = randomSquareGen(4);
     console.log(random_no);
 
     for (var i = 0; i < random_no.length; i++) {
@@ -41,5 +41,7 @@ document.getElementById('start').addEventListener('click', function(){
 
     })
     }
-
+    document.getElementById("done").addEventListener("click", function(){
+    document.location = "level2.html"
+    });
  });
