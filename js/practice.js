@@ -13,10 +13,6 @@ function Levels(x) {
     $("#"+ random_no[i]).addClass("squareColour")
   };
 
-//   for (var i = 0; i < random_no.length; i++) {
-//     setTimeout(function(){$("#" + random_no[i]).addClass("clearBlock")}, 4000);
-//   };
-// };
 
 setTimeout(function () {
   $("#" + random_no[i]).addClass("clearBlock");}, 4000)

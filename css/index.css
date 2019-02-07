@@ -28,3 +28,13 @@ body{
 .clearBlock{
   background-color:white;
 }
+
+.container{
+
+  text-align: center;
+}
+
+h1{
+
+  text-align: center;
+}
