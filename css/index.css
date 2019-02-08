@@ -1,0 +1,83 @@
+.game-block {
+  border: 1px solid tomato;
+  display: inline-block;
+  width: 97.5px;
+  height: 97.5px;
+  vertical-align: top;
+
+}
+#gamebody{
+
+  width:500px;
+
+
+}
+
+.squareColour{
+  background-color: black;
+}
+
+body{
+  width: auto;
+
+}
+
+#Start{
+  border-color: #2196F3;
+  color: dodgerblue;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.clearBlock{
+  background-color:white;
+}
+
+.container{
+
+  text-align: center;
+}
+
+h1{
+
+  text-align: center;
+}
+
+h2{
+
+  text-align: center;
+}
+
+
+#done{
+  border-color: #2196F3;
+  color: dodgerblue;
+  text-align: right;
+  border-radius: 8px;
+  font-size: 20px;
+
+}
+
+#Complete{
+  border-color: #2196F3;
+  color: dodgerblue;
+  text-align: right;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.image1{
+background-image: url(../images/square.gif);
+
+}
+#countdown{
+  font-size: 16pt;
+  display: inline-block;
+  margin:5px;
+}
+
+#scoreboard{
+  font-size: 16pt;
+  display: inline-block;
+  margin:5px;
+}
