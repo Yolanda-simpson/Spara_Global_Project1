@@ -3,7 +3,7 @@ document.getElementById('scoreboard').innerHTML = "score:" + score;
 var timer = 12;
 document.getElementById('countdown').innerHTML = "timer:" + timer;
 
-document.getElementById('start').addEventListener('click', function(){
+document.getElementById('Start').addEventListener('click', function(){
   setInterval(function() {
     if (timer != 0) {
       timer-- ;

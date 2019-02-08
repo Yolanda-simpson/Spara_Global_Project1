@@ -3,7 +3,7 @@ document.getElementById('scoreboard').innerHTML = "score:" + score;
 var timer = 12;
 document.getElementById('countdown').innerHTML = "timer:" + timer;
 
-document.getElementById('start').addEventListener('click', function(){
+document.getElementById('Start').addEventListener('click', function(){
   setInterval(function() {
     if (timer != 0) {
       timer-- ;
@@ -22,7 +22,7 @@ document.getElementById('start').addEventListener('click', function(){
     return random_no;
     };
 
-    var random_no = randomSquareGen(8);
+    var random_no = randomSquareGen(6);
     console.log(random_no);
 
     for (var i = 0; i < random_no.length; i++) {
@@ -41,7 +41,7 @@ document.getElementById('start').addEventListener('click', function(){
 
     })
     }
-    document.getElementById("complete").addEventListener("click", function(){
-    document.location = "win.html"
+    document.getElementById("Complete").addEventListener("click", function(){
+    document.location = "level3.html"
     });
  });

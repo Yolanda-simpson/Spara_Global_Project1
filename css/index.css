@@ -10,6 +10,7 @@
 
   width:500px;
 
+
 }
 
 .squareColour{
@@ -18,9 +19,10 @@
 
 body{
   width: auto;
+
 }
 
-#start{
+#Start{
   border-color: #2196F3;
   color: dodgerblue;
   border-radius: 8px;
@@ -40,12 +42,24 @@ h1{
 
   text-align: center;
 }
+
+
 #done{
+  border-color: #2196F3;
+  color: dodgerblue;
+  text-align: right;
+  border-radius: 8px;
+  font-size: 20px;
+
+}
+
+#Complete{
   border-color: #2196F3;
   text-align: right;
   border-radius: 8px;
   font-size: 20px;
 }
+
 .image1{
 background-image: url(../images/square.gif);
 
