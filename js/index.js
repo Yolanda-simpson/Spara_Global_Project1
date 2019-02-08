@@ -1,13 +1,13 @@
 var score = 0;
-document.getElementById('scoreboard').innerHTML = "score:" + score;
+document.getElementById('scoreboard').innerHTML = "Score:" + score;
 var timer = 12;
-document.getElementById('countdown').innerHTML = "timer:" + timer;
+document.getElementById('countdown').innerHTML = "Timer:" + timer;
 
 document.getElementById('Start').addEventListener('click', function(){
   setInterval(function() {
     if (timer != 0) {
       timer-- ;
-      document.getElementById('countdown').innerHTML = "timer:" + timer;
+      document.getElementById('countdown').innerHTML = "Timer:" + timer;
     }else {
       document.location = "Gameover.html"
     }

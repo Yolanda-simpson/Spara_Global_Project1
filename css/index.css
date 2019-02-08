@@ -43,6 +43,11 @@ h1{
   text-align: center;
 }
 
+h2{
+
+  text-align: center;
+}
+
 
 #done{
   border-color: #2196F3;
@@ -55,6 +60,7 @@ h1{
 
 #Complete{
   border-color: #2196F3;
+  color: dodgerblue;
   text-align: right;
   border-radius: 8px;
   font-size: 20px;
@@ -63,4 +69,15 @@ h1{
 .image1{
 background-image: url(../images/square.gif);
 
+}
+#countdown{
+  font-size: 16pt;
+  display: inline-block;
+  margin:5px;
+}
+
+#scoreboard{
+  font-size: 16pt;
+  display: inline-block;
+  margin:5px;
 }
